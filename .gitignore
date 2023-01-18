@@ -1,1 +1,86 @@
-/.idea
+HELP.md
+target/
+certificates/
+!.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**
+!**/src/test/**
+
+ 
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+*.attach*
+
+ 
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+
+ 
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+
+ 
+
+
+### VS Code ###
+.vscode/
+/.metadata/
+
+ 
+
+nohup.out
+
+ 
+
+**/dist
+/server/**/*.jar
+/docker-env/**/*.jar
+
+ 
+
+### gradle ###
+.gradle
+**/build/
+!src/**/build/
+
+# Ignore Gradle GUI config
+gradle-app.setting
+
+# Avoid ignoring Gradle wrapper jar file (.jar files are usually ignored)
+!gradle-wrapper.jar
+
+# Avoid ignore Gradle wrappper properties
+!gradle-wrapper.properties
+
+# Cache of project
+.gradletasknamecache
+
+# Eclipse Gradle plugin generated files
+# Eclipse Core
+.project
+# JDT-specific (Eclipse Java Development Tools)
+.classpath
+
+
+### dependencies ###
+node_modules/
+### BIN ###
+bin/
+/novus-hub-web-frontend/**/package-lock.json
+
