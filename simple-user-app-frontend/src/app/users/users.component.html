@@ -1,4 +1,5 @@
-<div class="padding-50" *ngFor="let user of users; let indexOfElement = index" [ngClass]="indexOfElement === 0 ? 'padding-top-50' : ''">
+<div class="padding-not-top-50" *ngFor="let user of users; let userIndex = index"
+    [ngClass]="userIndex === 0 ? 'padding-top-50' : 'padding-not-top-50'">
     <mat-card class="card-width">
         <tr class="card-properties">
             <th>Name</th>
