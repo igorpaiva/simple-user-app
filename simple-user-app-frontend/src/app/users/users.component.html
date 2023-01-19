@@ -1,14 +1,16 @@
-<table>
-    <tr>
-        <th>Name</th>
-        <th>Age</th>
-        <th>Height</th>
-    </tr>
-    <tr *ngFor="let user of users">
-        <td>{{ user.name }}</td>
-        <td>{{ user.age }}</td>
-        <td>{{ user.height }}</td>
-    </tr>
-</table>
+<div class="padding-50" *ngFor="let user of users; let indexOfElement = index" [ngClass]="indexOfElement === 0 ? 'padding-top-50' : ''">
+    <mat-card class="card-width">
+        <tr class="card-properties">
+            <th>Name</th>
+            <th>Age</th>
+            <th>Height</th>
+        </tr>
+        <tr class="card-properties">
+            <td>{{ user.name }}</td>
+            <td>{{ user.age }}</td>
+            <td>{{ user.height }}</td>
+        </tr>
+    </mat-card>
+</div>
 
 <button routerLink="/">Return</button>

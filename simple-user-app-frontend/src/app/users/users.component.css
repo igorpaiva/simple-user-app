@@ -1,0 +1,17 @@
+.card-properties {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.card-width {
+    width: 200px !important;
+}
+
+.padding-not-top-50 {
+    padding: 0px 50px 50px 50px !important;
+}
+
+.padding-top-50 {
+    padding-top: 50px;
+}
