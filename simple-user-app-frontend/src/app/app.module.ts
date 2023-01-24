@@ -14,6 +14,9 @@ import { MatTableModule } from '@angular/material/table';
 import { MatCardModule } from '@angular/material/card';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
+import { MatSidenavModule } from '@angular/material/sidenav';
+import { MatIconModule } from '@angular/material/icon';
+
 const routes: Routes = [
   { path: 'users', component: UsersComponent }
 ];
@@ -30,7 +33,9 @@ const routes: Routes = [
     HttpClientModule,
     MatTableModule,
     BrowserAnimationsModule,
-    MatCardModule
+    MatCardModule,
+    MatSidenavModule,
+    MatIconModule
   ],
   providers: [],
   bootstrap: [AppComponent],

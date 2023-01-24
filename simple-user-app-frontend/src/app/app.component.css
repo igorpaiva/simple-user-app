@@ -1,0 +1,12 @@
+.sidenav-width {
+    width: 100px !important;
+}
+
+.content-area {
+    margin-bottom: 88px;
+    overflow-y: auto;
+}
+
+.content-container {
+    width: 100px;
+}
